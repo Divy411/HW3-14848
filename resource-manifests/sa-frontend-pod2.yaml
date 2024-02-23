@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sa-frontend2
+  labels:
+    app: sa-frontend
+spec:
+  containers:
+    - image: gcr.io/carbon-scene-413621/divyangam094/sentiment-analysis-frontend:latest 
+      name: sa-frontend
+      ports:
+        - containerPort: 80
