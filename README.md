@@ -19,6 +19,7 @@ Build and push the sa-web-app image to Docker Hub. Then, pull the image, change 
 Step 5: Updating sa-web-app-deployment.yaml
 Update the sa-web-app-deployment.yaml file to use the updated image:
 image: gcr.io/carbon-scene-413621/divyangam094/sentiment-analysis-web-app:latest
+carbon-scene-413621 is PROJECT_ID
 
 Step 6: Configuring Frontend to Use sa-web-app Load Balancer IP
 Use the external load balancer IP address of sa-web-app to update the App.js file:
