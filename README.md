@@ -33,3 +33,5 @@ Deploy the sa-front-app-deployment.yaml file as well as service-sa-web-app-lb.ya
 
 Step 9: Accessing the Application
 Once deployed, the application will be accessible at the following URL: http://35.245.221.205/
+
+Changes were in files: k8s-mastery/sa-frontend/src/App.js, k8s-mastery/sa-web-app/dockerfile and three deployment yaml files.
